@@ -5,7 +5,7 @@ import psycopg2
 #clear connection to postgres
 conn = None
 
-conn = psycopg2.connect(host="172.29.10.241", database="nzau_analytics", user="rtadmin", password="N0t4Play!")
+conn = psycopg2.connect(host="172.29.10.241", database="nzau_analytics", user="rtadmin", password="123")
 print("Database Connected")
 cur = conn.cursor()
 rowcount = cur.rowcount
